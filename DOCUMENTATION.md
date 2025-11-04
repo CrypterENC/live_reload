@@ -14,9 +14,9 @@ pip install -e .
 ```
 
 ## Basic Usage
-Add `start_auto_live_reload()` at the start of your main script:
+Add `from auto_live_reload import LiveReload, start_auto_live_reload` at the start of your main script:
 ```python
-from auto_live_reload import start_auto_live_reload
+from auto_live_reload import LiveReload, start_auto_live_reload
 
 start_auto_live_reload()
 
