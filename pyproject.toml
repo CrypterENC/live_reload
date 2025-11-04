@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "live_reload"
+version = "1.0.0"
+description = "A Python library for live reloading scripts on file changes."
+readme = "README.md"
+authors = [
+    {name = "CrypterENC", email = "a95899003@gmail.com"}
+]
+requires-python = ">=3.8"
+license = "MIT"
+
+[project.urls]
+Documentation = "https://github.com/yourusername/custom-ui-pyqt6#readme"
+Repository = "https://github.com/CrypterENC/live_reload.git"
+
